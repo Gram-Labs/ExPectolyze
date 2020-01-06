@@ -1,4 +1,4 @@
-# ExPecto-Analyze
+# ExPectolyze
 
 Analysis suite for use with the ExPecto deep learning variant expression prediction model. This README serves as a writeup of my work during a rotation in the [Ruderfer lab](https://github.com/RuderferLab) + some thoughts on potential further development of a project integrating multiple pipelines of deep learning functional SNV annotation for non-coding DNA sequences. Utilizes the [ExPecto](https://github.com/functionlab/expecto) tissue-specific, deep learning framework using variants + sequence data to predict significant functional variants. 
 

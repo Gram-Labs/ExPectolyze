@@ -1,7 +1,7 @@
 import csv
 
 output3 = csv.writer(open('/data/ruderferlab/sandbox/grahame/expecto/data/exp_inputANDoutput.tsv', 'w'), delimiter = '\t')
-output3.writerow(['variant'] + ['gene'] + ['expectoValue'] + ['distanceToTSS'] + ['list_of_DNA_ids_with_1/1_match'])
+output3.writerow(['variant'] + ['gene'] + ['expectoValue'] + ['distanceToTSS'] + ['list_of_heterozygous_DNA_ids'])
 
 with open ('/data/ruderferlab/sandbox/grahame/expecto/data/filtered_expecto_input.tsv', 'r') as input4k, open('/data/ruderferlab/sandbox/grahame/expecto/data/filtered_expecto_output.tsv', 'r') as output20k:
     inputreader = csv.reader(input4k, delimiter='\t')
